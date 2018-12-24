@@ -13,6 +13,7 @@ In the figure bellow it can be seen the two instances of both microservices.
 
 
 * **A second account microservice is running in the port 4444 and it is registered (a fourth terminal, log screenshots).**
+The new service can be run in 4444 changing the file [application.yml](accounts/src/main/resources/application.yml)
 ![Figure 1](images/2instances.PNG "Registration of the new instance")
 ![Figure 2](images/terminalAccount2.PNG "Terminal of the new instance in 4444 of account microservice")
 
